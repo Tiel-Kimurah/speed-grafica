@@ -1,0 +1,85 @@
+
+
+.container-despedida{
+    display: flex;
+    flex-direction: row ;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    gap: 2rem;
+    background-color: rgb(183, 197, 209);
+    padding: 3rem 0;
+    margin: 6rem;
+    border: none;
+    border-radius: 22px;
+}
+.textos-despedida{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 2rem;
+}
+.textos-despedida h1{
+    font-size: 2rem;
+}
+.textos-despedida p{
+    width: 500px;
+}
+@media (max-width:740px){
+    .container-despedida{
+        margin: 3rem;
+        gap: 1rem;
+    }
+    .textos-despedida{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+    .textos-despedida p{
+        width: 300px;
+    }
+    .imagens-despedida img{
+        margin-top: -5rem;
+    }
+}
+@media (max-width:550px){
+    .textos-despedida h1{
+        width: 300px;
+    }
+    .imagens-despedida img{
+        width: 300px;
+    }
+    .container-despedida{
+        margin: 1rem;
+    }
+}
+@media (max-width:340px){
+    .container-despedida{
+        margin: 0.2rem;
+    }
+    .textos-despedida h1{
+        font-size: 1.6rem;
+        width: 270px;
+    }
+    .textos-despedida p{
+        width: 270px;
+    }
+    .imagens-despedida img{
+        margin-top: -3rem;
+        width: 270px;
+    }
+}
+footer{
+    display:flex ;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color:#0f0c41 ;
+    color: white;
+}
+footer p{
+    font-size: 0.8rem;
+    opacity: 70%;
+}

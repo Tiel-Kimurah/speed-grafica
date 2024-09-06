@@ -1,0 +1,110 @@
+
+
+.container-servicos{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 2rem;
+    padding: 3rem 0;
+}
+.texto-servicos{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 1.3rem;
+}
+.texto-servicos h1{
+    color: white;
+    font-size: 2rem;
+    background-color: #120d5e;
+}
+.texto-servicos p{
+    width: 500px;
+}
+.itens-servicos{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    gap: 3rem;
+}
+.imgs-itens-servicos img{
+    width: 180px;
+}
+.item-sev{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    border: 2px solid black;
+    border-radius: 22px;
+    padding: 2rem;
+}
+.item-sev a button{
+    border: none;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 0.3rem;
+    background-color: transparent;
+}
+.textos-itens-servicos{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 6rem;
+}
+.textos-itens-servicos h1{
+    width: 200px;
+}
+.imgs-itens-servicos img.banner{
+    width: 150px;
+}
+.imgs-itens-servicos img.banner-1{
+    width: 160px;
+}
+@media (max-width:630px){
+    .texto-servicos{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        gap: 1rem;
+    }
+    .texto-servicos p{
+        width: 500px;
+    }
+}
+@media (max-width:490px){
+    .texto-servicos p{
+        width: 300px;
+    }
+    .textos-itens-servicos{
+        gap: 9rem;
+    }
+    .imgs-itens-servicos img{
+        margin-top: 4rem;
+        margin-left: -7rem;
+    }
+}
+@media (max-width:355px){
+    .textos-itens-servicos{
+        gap: 13rem;
+    }
+    .imgs-itens-servicos img{
+        margin-left: -12rem;
+    }
+    .imgs-itens-servicos img.banner,
+    .imgs-itens-servicos img.banner-1{
+        margin-top: 1.9rem;
+    }
+    .item-sev{
+        padding: 1rem;
+    }
+}
+@media (max-width:300px){
+    .texto-servicos p{
+        width: 270px;
+    }
+}
