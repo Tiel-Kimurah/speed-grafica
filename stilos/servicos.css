@@ -88,6 +88,14 @@
         margin-left: -7rem;
     }
 }
+@media (max-width:380px){
+    .banner-ite{
+        padding: 2rem 3rem;
+    }
+    .banner-ite-2{
+        padding: 2rem 2.5rem;
+    }
+}
 @media (max-width:355px){
     .textos-itens-servicos{
         gap: 13rem;
