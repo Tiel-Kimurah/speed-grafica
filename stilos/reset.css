@@ -6,6 +6,9 @@
     text-decoration: none;
     list-style: none;
 }
+body{
+    font-family: "Cormorant", serif;
+}
 /* From Uiverse.io by mrhyddenn */ 
 .button {
     -moz-appearance: none;
