@@ -87,12 +87,6 @@
         margin-top: 4rem;
         margin-left: -7rem;
     }
-    .banner-ite{
-        padding: 2rem 3rem;
-    }
-    .banner-ite-2{
-        padding: 2rem 2.5rem;
-    }
 }
 @media (max-width:400px){
     .banner-ite{
